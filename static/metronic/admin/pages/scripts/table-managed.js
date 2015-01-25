@@ -10,16 +10,16 @@ var TableManaged = function () {
             // Internationalisation. For more info refer to http://datatables.net/manual/i18n
             "language": {
                 "aria": {
-                    "sortAscending": ": activate to sort column ascending",
-                    "sortDescending": ": activate to sort column descending"
+                    "sortAscending": ": ordenar ascendente",
+                    "sortDescending": ": ordenar descendente"
                 },
-                "emptyTable": "No data available in table",
-                "info": "Showing _START_ to _END_ of _TOTAL_ entries",
-                "infoEmpty": "No entries found",
-                "infoFiltered": "(filtered1 from _MAX_ total entries)",
-                "lengthMenu": "Show _MENU_ entries",
-                "search": "Search:",
-                "zeroRecords": "No matching records found"
+                "emptyTable": "Nenhum registro para exibir",
+                "info": "Exibindo _START_ ate _END_ de _TOTAL_ registros",
+                "infoEmpty": "Nenhum registro encontrado",
+                "infoFiltered": "(filtered1 de _MAX_ registros)",
+                "lengthMenu": "Mostrar _MENU_ registros",
+                "search": "Pesquisar:",
+                "zeroRecords": "Nenhum registro encontrado"
             },
 
             // Uncomment below line("dom" parameter) to fix the dropdown overflow issue in the datatable cells. The default datatable layout
@@ -176,16 +176,16 @@ var TableManaged = function () {
             // Internationalisation. For more info refer to http://datatables.net/manual/i18n
             "language": {
                 "aria": {
-                    "sortAscending": ": activate to sort column ascending",
-                    "sortDescending": ": activate to sort column descending"
+                    "sortAscending": ": ordenar ascendente",
+                    "sortDescending": ": ordenar descendente"
                 },
-                "emptyTable": "No data available in table",
-                "info": "Showing _START_ to _END_ of _TOTAL_ entries",
-                "infoEmpty": "No entries found",
-                "infoFiltered": "(filtered1 from _MAX_ total entries)",
-                "lengthMenu": "Show _MENU_ entries",
-                "search": "Search:",
-                "zeroRecords": "No matching records found"
+                "emptyTable": "Nenhum registro para exibir",
+                "info": "Exibindo _START_ ate _END_ de _TOTAL_ registros",
+                "infoEmpty": "Nenhum registro encontrado",
+                "infoFiltered": "(filtered1 de _MAX_ registros)",
+                "lengthMenu": "Mostrar _MENU_ registros",
+                "search": "Pesquisar:",
+                "zeroRecords": "Nenhum registro encontrado"
             },
             
             // Uncomment below line("dom" parameter) to fix the dropdown overflow issue in the datatable cells. The default datatable layout

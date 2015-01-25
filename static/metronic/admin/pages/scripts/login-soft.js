@@ -154,36 +154,49 @@ var Login = function () {
 	            ignore: "",
 	            rules: {
 	                
-	                fullname: {
+	                nome: {
 	                    required: true
 	                },
 	                email: {
 	                    required: true,
 	                    email: true
 	                },
-	                address: {
+	                data_de_nascimento: {
 	                    required: true
 	                },
-	                city: {
+	                endereco: {
 	                    required: true
 	                },
-	                country: {
+	                telefone: {
 	                    required: true
 	                },
-
+	                formacao: {
+	                    required: true
+	                },
+	                numero_de_registro_do_conselho: {
+	                    required: true
+	                },
+	                atuacao: {
+	                    required: true
+	                },
+	                curriculo: {
+	                    required: true
+	                },
+                    participacal_no_portal: {
+	                    required: true
+	                },
+	                foto: {
+	                    required: true
+	                },
 	                username: {
 	                    required: true
 	                },
 	                password: {
 	                    required: true
 	                },
-	                rpassword: {
-	                    equalTo: "#register_password"
-	                },
-
 	                tnc: {
 	                    required: true
-	                }
+	                },
 	            },
 
 	            messages: { // custom messages for radio buttons and checkboxes
