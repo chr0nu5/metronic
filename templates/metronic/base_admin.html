@@ -104,20 +104,20 @@
                             <span class="username username-hide-mobile">{{user.username}}</span>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-default">
+                            {% block user_menu %}
                             <li>
                                 <a href="/creator/myprofile/">
                                 <i class="icon-user"></i> My Profile </a>
                             </li>
-                            {% block user_menu %}
                             <li>
                                 <a href="/creator/lockscreen/">
                                 <i class="icon-lock"></i> Lock Screen </a>
                             </li>
-                            {% endblock %}
                             <li>
                                 <a href="/admin/logout/">
                                 <i class="icon-key"></i> Log Out </a>
                             </li>
+                            {% endblock %}
                         </ul>
                     </li>
                     <!-- END USER LOGIN DROPDOWN -->
