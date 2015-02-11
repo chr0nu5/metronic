@@ -171,7 +171,7 @@ var Login = function () {
 	                },
 	                endereco_comercial: {
 	                    required: true
-	                },
+	                }, 
 	                telefone_comercial: {
 	                    required: true
 	                },
