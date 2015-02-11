@@ -157,6 +157,27 @@ var Login = function () {
 	                nome: {
 	                    required: true
 	                },
+	                tipo: {
+	                    required: true
+	                },
+	                especialidade: {
+	                    required: true
+	                },
+	                estado: {
+	                    required: true
+	                },
+	                cidade: {
+	                    required: true
+	                },
+	                endereco_comercial: {
+	                    required: true
+	                },
+	                telefone_comercial: {
+	                    required: true
+	                },
+                    participacao_no_portal: {
+                        required: true
+                    },
 	                email: {
 	                    required: true,
 	                    email: true
