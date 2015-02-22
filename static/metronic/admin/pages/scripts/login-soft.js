@@ -194,9 +194,6 @@ var Login = function () {
 	                formacao: {
 	                    required: true
 	                },
-	                numero_de_registro_do_conselho: {
-	                    required: true
-	                },
 	                atuacao: {
 	                    required: true
 	                },
