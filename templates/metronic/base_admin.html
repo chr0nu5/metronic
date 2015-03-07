@@ -59,14 +59,15 @@
             <div class="top-menu">
                 <ul class="nav navbar-nav pull-right">
                     <!-- BEGIN NOTIFICATION DROPDOWN -->
+                    {% block auth_menu %}
                     <li class="dropdown dropdown-extended dropdown-dark dropdown-notification" id="header_notification_bar">
                         <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
                             <i class="icon-user"></i>
                         </a>
+                        
                         <ul class="dropdown-menu">
                             <li>
                                 <ul class="dropdown-menu-list scroller" style="height: 110px;" data-handle-color="#637283">
-                                    {% block auth_menu %}
                                     <li>
                                         <a href="javascript:;">
                                             <span class="details">
@@ -87,11 +88,11 @@
                                             </span>
                                         </a>
                                     </li>
-                                    {% endblock %}
                                 </ul>
                             </li>
                         </ul>
                     </li>
+                         {% endblock %}
                     <!-- END NOTIFICATION DROPDOWN -->
                     <li class="droddown dropdown-separator">
                         <span class="separator"></span>
@@ -100,7 +101,7 @@
                     <!-- BEGIN USER LOGIN DROPDOWN -->
                     <li class="dropdown dropdown-user dropdown-dark">
                         <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-                            <img alt="" class="img-circle" src="{% static 'metronic/admin/layout3/img/avatar9.jpg' %}">
+                            {# <img alt="" class="img-circle" src="{% static 'metronic/admin/layout3/img/avatar9.jpg' %}"> #}
                             <span class="username username-hide-mobile">{{user.username}}</span>
                         </a>
                         <ul class="dropdown-menu dropdown-menu-default">
