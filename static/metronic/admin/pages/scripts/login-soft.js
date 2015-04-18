@@ -182,9 +182,6 @@ var Login = function () {
 	                    required: true,
 	                    email: true
 	                },
-	                data_de_nascimento: {
-	                    required: true
-	                },
 	                endereco: {
 	                    required: true
 	                },
